@@ -1,1 +1,9 @@
+SQL server and SSMS are different
+SSMS helps to connect with SQL(Structured Query Language) Server
+
+Create Database Database_Name  -- creates two files .mdf(master data file)   and .ldf(log data file)
+*Cannot drop database if used by multiple user to drop it has to be set to single user mode
+  -Alter Database Database_Name Set Single_User with Immediate Rollback
+
+
 
