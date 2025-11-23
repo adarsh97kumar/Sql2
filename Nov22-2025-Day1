@@ -3,7 +3,7 @@ SSMS helps to connect with SQL(Structured Query Language) Server
 
 Create Database Database_Name  -- creates two files .mdf(master data file)   and .ldf(log data file)
 *Cannot drop database if used by multiple user to drop it has to be set to single user mode
-  -Alter Database Database_Name Set Single_User with Immediate Rollback
+  -Alter Database Database_Name Set Single_User with Rollback Immediate
 
-
+Forign key is used to enforce data integrity. It points to another table and if that data is not present in the table it will not allow to enter that data in this table. Null can be allowed, if column accepts null.
 
